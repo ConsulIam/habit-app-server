@@ -1,0 +1,5 @@
+node_modules
+.git
+dist
+prisma/deb.db
+prisma/schemasqlite.prisma
