@@ -9,7 +9,7 @@ app.register(appRoutes)
 
 app.listen({
   host: "0.0.0.0",
-  port: 11337,
+  port: process.env.PORT ? Number(process.env.PORT) : 11337,
 }).then((url) => {
   console.log(`Consul HTTP Server running on ${url}!`)
 })
