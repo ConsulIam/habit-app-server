@@ -3,3 +3,4 @@ node_modules
 dist
 prisma/deb.db
 prisma/schemasqlite.prisma
+prisma/migrationssqlite
